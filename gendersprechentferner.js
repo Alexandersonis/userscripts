@@ -123,6 +123,7 @@
         { wort: "Lesende", singularMaskulin: "Leser", singularFeminin: "Leserin", plural: "Leser", oblique: "Leser" },
         { wort: "Assistierende", singularMaskulin: "Assistent", singularFeminin: "Assistentin", plural: "Assistenten", oblique: "Assistenten" },
         { wort: "Antragstellende", singularMaskulin: "Antragsteller", singularFeminin: "Antragstellerin", plural: "Antragsteller", oblique: "Antragsteller" },
+        { wort: "Auftraggebende", singularMaskulin: "Auftraggeber", singularFeminin: "Auftraggeberin", plural: "Auftraggeber", oblique: "Auftraggeber" },
         { wort: "Beratende", singularMaskulin: "Berater", singularFeminin: "Beraterin", plural: "Berater", oblique: "Berater" },
         { wort: "Bewerbende", singularMaskulin: "Bewerber", singularFeminin: "Bewerberin", plural: "Bewerber", oblique: "Bewerber" },
         { wort: "Besuchende", singularMaskulin: "Besucher", singularFeminin: "Besucherin", plural: "Besucher", oblique: "Besucher" },
