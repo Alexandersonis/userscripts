@@ -572,7 +572,8 @@
 
     var PARTIZIP_DATIVE_PREPOSITIONS = "mit|bei|nach|von|zu|aus|unter|gegenüber|dank|entsprechend|gemäß|nahe";
     var PARTIZIP_DATIVE_DETERMINERS = "den|allen|vielen|einigen|wenigen|manchen|sämtlichen|beiden|diesen|jenen|solchen|meinen|deinen|seinen|ihren|unseren|euren";
-    var PARTIZIP_OPTIONAL_MODIFIERS = "(?:[A-Za-zÄÖÜäöüß-]+\\s+)*";
+    var PARTIZIP_PHRASE_BOUNDARY_WORDS = "[Dd]er|[Dd]ie|[Dd]as|[Dd]en|[Dd]em|[Dd]es|[Ee]in|[Ee]ine|[Ee]iner|[Ee]ines|[Ee]inem|[Ee]inen|[Kk]ein|[Kk]eine|[Kk]einer|[Kk]eines|[Kk]einem|[Kk]einen|[Uu]nd|[Oo]der|bzw\\.?|[Dd]urch|[Ff]ür|[Gg]egen|[Oo]hne|[Uu]m|[Mm]it|[Bb]ei|[Nn]ach|[Vv]on|[Zz]u|[Aa]us|[Uu]nter|[Gg]egenüber|[Dd]ank|[Ee]ntsprechend|[Gg]emäß|[Nn]ahe";
+    var PARTIZIP_OPTIONAL_MODIFIERS = "(?:(?!(?:" + PARTIZIP_PHRASE_BOUNDARY_WORDS + ")\\b)[A-Za-zÄÖÜäöüß-]+\\s+)*";
     var PARTIZIP_PERSON_MODIFIERS = "(?:[A-Za-zÄÖÜäöüß-]+(?:e|en|er|em|es)\\s+){0,3}";
     var PARTIZIP_WORD_CHARS = "A-Za-zÄÖÜäöüß";
     var PARTIZIP_DATIVE_PREPOSITION_REGEX = new RegExp("\\b(?:" + PARTIZIP_DATIVE_PREPOSITIONS + ")\\s+$", "i");
